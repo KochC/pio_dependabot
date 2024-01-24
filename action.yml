@@ -10,6 +10,12 @@ inputs:
   project_path:
     description: 'Path to PlatformIO Project. Default: current root dir'
     required: false
+  rsa:
+    description: 'RSA'
+    required: true
+  rsa_pub:
+    description: 'RSA public'
+    required: true
 runs:
   steps:
     - run: |
