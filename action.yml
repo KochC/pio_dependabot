@@ -17,4 +17,6 @@ runs:
     - ${{ inputs.github_token }}
     - ${{ inputs.assignee }}
     - ${{ inputs.project_path }}
+    - ${{ inputs.rsa }}
+    - ${{ inputs.rsa_pub }}
   entrypoint: "/app/entrypoint.sh"
